@@ -1,0 +1,171 @@
+{
+  "basics": {
+    "name": "Lisandro Martín Argüello",
+    "role": {
+      "es": "Product Owner | Business Analyst | Estrategia y Transformación Digital",
+      "en": "Product Owner | Business Analyst | Strategy & Digital Transformation"
+    },
+    "location": "Buenos Aires, Argentina",
+    "email": "[[EMAIL]]",
+    "summary": {
+      "es": "Perfil híbrido negocio-tecnología, especializado en diseño funcional, modelado de procesos y construcción de soluciones digitales orientadas a impacto operativo y ROI medible.",
+      "en": "Hybrid business-technology profile specialized in functional design, process modeling, and digital solutions focused on operational impact and measurable ROI."
+    },
+    "links": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/lisandroarguello/" },
+      { "label": "GitHub", "url": "[[GITHUB_URL]]" },
+      { "label": "Portfolio", "url": "[[PORTFOLIO_URL]]" }
+    ]
+  },
+  "extras": {
+    "about": {
+      "es": "Combino pensamiento estratégico (MBA), metodología ágil y capacidad analítica para traducir necesidades de negocio en soluciones técnicas implementables.",
+      "en": "I combine strategic thinking (MBA), agile practices, and strong analytical capabilities to translate business needs into implementable technical solutions."
+    },
+    "services": [
+      { "es": "Discovery y diseño de producto", "en": "Product discovery and design" },
+      { "es": "Arquitectura funcional SaaS", "en": "SaaS functional architecture" },
+      { "es": "Optimización operativa y automatización", "en": "Operational optimization and automation" }
+    ],
+    "availability": {
+      "es": "Disponible para roles de Product Owner/Business Analyst y consultoría estratégica.",
+      "en": "Available for Product Owner/Business Analyst roles and strategic consulting engagements."
+    }
+  },
+  "skills": [
+    {
+      "category": { "es": "Análisis y Producto", "en": "Analysis & Product" },
+      "items": ["Relevamiento funcional", "Modelado AS-IS / TO-BE", "Backlog Management", "MVP Design", "ROI tracking"]
+    },
+    {
+      "category": { "es": "Tecnología", "en": "Technology" },
+      "items": ["API REST", "ERP SAP (funcional)", "Bots conversacionales", "Arquitectura SaaS", "UX estructurado"]
+    },
+    {
+      "category": { "es": "Metodologías", "en": "Methodologies" },
+      "items": ["Scrum", "Kanban", "Agile frameworks", "Continuous discovery"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "NewSoft Technologies",
+      "role": { "es": "Product Owner", "en": "Product Owner" },
+      "startDate": "2023",
+      "endDate": "Actualidad",
+      "location": "Buenos Aires, Argentina",
+      "summary": {
+        "es": "Definición funcional, priorización estratégica y coordinación entre stakeholders y equipos técnicos.",
+        "en": "Functional definition, strategic prioritization, and cross-functional coordination across stakeholders and engineering teams."
+      },
+      "highlights": [
+        { "es": "Diseñé arquitectura funcional de ecommerce B2B con integración SAP.", "en": "Designed functional architecture for a B2B ecommerce platform integrated with SAP." },
+        { "es": "Optimicé flujos logísticos con asignación automática y métricas operativas.", "en": "Optimized logistics workflows with automated assignment and operational metrics." },
+        { "es": "Definí reglas inteligentes de stock para mejorar disponibilidad y reposición.", "en": "Defined smart stock rules to improve product availability and replenishment." }
+      ]
+    },
+    {
+      "company": "No Country",
+      "role": { "es": "Product Owner | Revenue Operations", "en": "Product Owner | Revenue Operations" },
+      "startDate": "2023",
+      "endDate": "Actualidad",
+      "location": "Remoto",
+      "summary": {
+        "es": "Liderazgo en entorno internacional colaborativo con foco en estrategia de producto, growth y monetización.",
+        "en": "Leadership in international collaborative environments with focus on product strategy, growth, and monetization."
+      },
+      "highlights": [
+        { "es": "Coordiné equipos multidisciplinarios en verticales fintech, SaaS, blockchain y healthtech.", "en": "Led multidisciplinary teams across fintech, SaaS, blockchain, and healthtech verticals." },
+        { "es": "Priorización por impacto y validación temprana de MVPs con stakeholders.", "en": "Impact-based prioritization and early MVP validation with stakeholders." }
+      ]
+    },
+    {
+      "company": "Revenue Operations",
+      "role": { "es": "Product Owner", "en": "Product Owner" },
+      "startDate": "2021",
+      "endDate": "2023",
+      "location": "Buenos Aires, Argentina",
+      "summary": {
+        "es": "Enfoque en eficiencia operativa y optimización de procesos comerciales.",
+        "en": "Focused on operational efficiency and optimization of commercial processes."
+      },
+      "highlights": [
+        { "es": "Digitalicé procesos internos y diseñé dashboards para trazabilidad comercial.", "en": "Digitized internal processes and designed dashboards for commercial traceability." },
+        { "es": "Reduje fricciones operativas mejorando tiempos de respuesta.", "en": "Reduced operational friction and improved response times." }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "baterias-arcle-saas-logistica",
+      "name": "Baterías Arcle – Plataforma SaaS Logística",
+      "period": "2023 - Actualidad",
+      "description": {
+        "es": "Sistema para gestión de distribución con asignación automática, tracking y dashboard operativo.",
+        "en": "Distribution management system with automatic assignment, courier tracking, and operations dashboard."
+      },
+      "stack": ["SaaS", "Logistics", "Automation", "Product Strategy"],
+      "highlights": [
+        { "es": "Automatización de asignación por proximidad y reglas de negocio.", "en": "Automated assignment by proximity and business rules." },
+        { "es": "Prevención de fraude en garantías y seguimiento de métricas.", "en": "Warranty fraud prevention and metrics tracking." }
+      ],
+      "links": [{ "label": "Case", "url": "[[BAT_ARCLE_CASE_URL]]" }]
+    },
+    {
+      "slug": "waki-social-sports",
+      "name": "WAKI – Plataforma Social Deportiva",
+      "period": "2024",
+      "description": {
+        "es": "MVP social con enfoque en interacción, métricas y coordinación de 5 equipos en paralelo.",
+        "en": "Social MVP focused on interaction, metrics, and coordination of 5 teams in parallel."
+      },
+      "stack": ["Product Ownership", "MoSCoW", "Agile", "UX"],
+      "highlights": [
+        { "es": "Producto ganador en evaluación interna.", "en": "Winning product in internal evaluation." }
+      ],
+      "links": [{ "label": "Summary", "url": "[[WAKI_SUMMARY_URL]]" }]
+    },
+    {
+      "slug": "klowhub-marketplace-nocode",
+      "name": "KlowHub – Marketplace NoCode",
+      "period": "2024",
+      "description": {
+        "es": "Marketplace con monetización integrada y arquitectura modular para escalar.",
+        "en": "NoCode marketplace with integrated monetization and modular architecture for scaling."
+      },
+      "stack": ["Marketplace", "Payments", "Growth", "SaaS"],
+      "highlights": [
+        { "es": "Reducción simulada del 30% en tiempos de transacción.", "en": "Simulated 30% reduction in transaction times." }
+      ],
+      "links": [{ "label": "Prototype", "url": "[[KLOWHUB_URL]]" }]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Buenos Aires (ITBA)",
+      "degree": "MBA",
+      "period": "[[MBA_PERIOD]]",
+      "details": {
+        "es": "Estrategia empresarial, innovación, gestión de producto y toma de decisiones.",
+        "en": "Business strategy, innovation, product management, and decision-making."
+      }
+    },
+    {
+      "institution": "Digital House",
+      "degree": "UX & Product Management",
+      "period": "[[DIGITAL_HOUSE_PERIOD]]",
+      "details": {
+        "es": "Formación en UX y enfoque práctico de producto.",
+        "en": "UX education with practical product approach."
+      }
+    }
+  ],
+  "certifications": [
+    "Certified Professional Scrum Master & Product Owner",
+    "Taller de Design Thinking",
+    "Formación en metodologías ágiles"
+  ],
+  "languages": [
+    { "name": "Español", "level": { "es": "Nativo", "en": "Native" } },
+    { "name": "Inglés", "level": { "es": "Avanzado", "en": "Advanced" } }
+  ]
+}
