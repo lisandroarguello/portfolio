@@ -1,0 +1,166 @@
+:root {
+  --bg: #0f172a;
+  --surface: #111827;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --primary: #38bdf8;
+  --primary-strong: #0ea5e9;
+  --card: #1f2937;
+}
+
+body.light {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --primary: #0284c7;
+  --primary-strong: #0369a1;
+  --card: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: min(1000px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  background: radial-gradient(circle at 20% 20%, #0ea5e922, transparent 45%),
+    var(--surface);
+  border-bottom: 1px solid #ffffff1f;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.brand {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--text);
+}
+
+.hero-content {
+  padding: 4rem 0 5rem;
+}
+
+.eyebrow {
+  color: var(--primary);
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  margin: 0.3rem 0;
+}
+
+.subtitle {
+  max-width: 60ch;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.4rem;
+}
+
+.btn {
+  border: 1px solid transparent;
+  padding: 0.65rem 1rem;
+  border-radius: 0.7rem;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: #00111a;
+}
+
+.btn.primary:hover {
+  background: var(--primary-strong);
+}
+
+.btn.ghost,
+.btn.secondary {
+  border-color: #ffffff33;
+}
+
+.section {
+  padding: 3.2rem 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: var(--card);
+  padding: 1.1rem;
+  border-radius: 0.9rem;
+  border: 1px solid #ffffff18;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.card a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  border-top: 1px solid #ffffff1f;
+  text-align: center;
+  color: var(--muted);
+  padding: 1.2rem 0;
+}

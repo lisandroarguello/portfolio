@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio personal con proyectos, experiencia y contacto."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="inicio">
+      <nav class="nav container">
+        <a class="brand" href="#inicio">MiPortfolio</a>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content container">
+        <p class="eyebrow">Hola 👋, soy</p>
+        <h1>Tu Nombre</h1>
+        <p class="subtitle">
+          Desarrollo experiencias web modernas, rápidas y enfocadas en resultados.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn ghost" href="#contacto">Contactarme</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre-mi" class="section container">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy desarrollador/a web con enfoque en frontend y diseño funcional. Me gusta
+          construir interfaces claras, accesibles y con buen rendimiento.
+        </p>
+      </section>
+
+      <section id="proyectos" class="section container">
+        <h2>Proyectos destacados</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Tienda online</h3>
+            <p>
+              E-commerce responsive con carrito, filtros y pasarela de pago simulada.
+            </p>
+            <a href="#" aria-label="Ver proyecto tienda online">Ver detalle →</a>
+          </article>
+          <article class="card">
+            <h3>Dashboard analítico</h3>
+            <p>
+              Panel de métricas con gráficos, tablas y exportación de reportes.
+            </p>
+            <a href="#" aria-label="Ver proyecto dashboard analítico">Ver detalle →</a>
+          </article>
+          <article class="card">
+            <h3>Landing para SaaS</h3>
+            <p>
+              Página de conversión optimizada para captación de leads y SEO técnico.
+            </p>
+            <a href="#" aria-label="Ver proyecto landing para SaaS">Ver detalle →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section container">
+        <h2>Contacto</h2>
+        <p>
+          ¿Trabajamos juntos? Escríbeme a
+          <a href="mailto:hola@correo.com">hola@correo.com</a>
+        </p>
+        <button id="themeToggle" class="btn secondary" type="button">
+          Cambiar tema
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
